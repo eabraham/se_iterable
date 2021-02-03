@@ -1,0 +1,23 @@
+{
+  "associated_campaign": "test",
+  "associated_campaign_id": 1234,
+  "type": "Base",
+  "medium": "Email",
+  "email_template_tab": {
+    "template_name": "TEST",
+    "message_type": "Transactional Message",
+    "from_email": "noreply@streeteasy.com",
+    "from_name": "StreetEasy",
+    "reply_to_email": "",
+    "subject_line": "{{#ifGt spotlights.contacts 2 }}You've Connected With {{ spotlights.contacts }} Buyers From Your Agent Spotlight Listing{{ else }} Your Agent Spotlight Subscription Has Been Renewed {{/ifGt}}",
+    "preheader_text": "See what Agent Spotlight has done for you last month.",
+    "cc": "",
+    "bcc": ""
+  },
+  "advanced_options_tab": {
+    "enable_google_analytics_url_tracking": "false",
+    "enable_template_generation_using_data_feeds": "false",
+    "enable_custom_link_parameters": "false",
+    "convert_css_styles_from_the_head_element_into_inline_style_attributes": "true"
+  }
+}
